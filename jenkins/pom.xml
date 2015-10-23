@@ -5,13 +5,31 @@
   <artifactId>jenkins</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>jenkins1</name>
-  <dependencies>
-         <dependency>
-	<groupId>org.apache.maven.plugins</groupId>
-	<artifactId>maven-compiler-plugin</artifactId>
-	<version>3.3</version>
-</dependency>
-         
-          </dependencies>
+  <build>
+    <plugins>
+        <!-- we want JDK 1.6 source and binary compatiblility -->
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+            </configuration>
+        </plugin>
+        <!-- ... -->
+        <!-- we want sources to be processed by a specific 1.6 javac -->
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.3</version>
+            <configuration>
+              <verbose>true</verbose>
+              <fork>true</fork>
+              <executable>${JAVA_HOME}/bin/javac</executable>
+              <compilerVersion>1.8</compilerVersion>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
          
 </project>
