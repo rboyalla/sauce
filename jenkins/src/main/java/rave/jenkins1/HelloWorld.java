@@ -4,18 +4,15 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("A 1111111111111");		
+		System.out.println("A 1111111111111");
 		System.out.println("B 11111111111111");
 	}
-	
-	
-	public void methodA(){
+
+	public void methodA() {
 		System.out.println("in method A");
 	}
-	public void methodB(){
+
+	public void methodB() {
 		System.out.println("in method b");
 	}
-	
-		
-	
 }
