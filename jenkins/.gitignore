@@ -1,4 +1,8 @@
 /target/
 .classpath
+<<<<<<< HEAD
+^classpath
+=======
 .project
+>>>>>>> branch 'master' of https://github.com/rboyalla/sauce.git
 
