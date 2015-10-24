@@ -17,7 +17,10 @@ public class HelloWorld {
 
 		System.out.println("this is git2");
 		System.out.println("this is git2");
+		System.out.println("3 this is git2");
 		
+		System.out.println("added by master branch");
+		System.out.println("added by master branch22");
 	}
 
 }
