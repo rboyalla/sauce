@@ -11,6 +11,7 @@ public class HelloWorld {
 		System.out.println("this is added in the local2branch");
 		System.out.println("22222222222222 this is added in the local2branch");
 
+		System.out.println("this is git2");
 	}
 
 }
