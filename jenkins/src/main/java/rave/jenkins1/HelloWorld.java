@@ -7,5 +7,9 @@ public class HelloWorld {
 		System.out.println("A 1111111111111");		
 		System.out.println("B 11111111111111");
 	}
+	
+	public void methodB(){
+		System.out.println("in method b");
+	}
 
 }
