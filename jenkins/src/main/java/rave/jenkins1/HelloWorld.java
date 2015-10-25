@@ -16,7 +16,7 @@ public class HelloWorld {
 		System.out.println("in method b");
 	}
 	public void methodB33() {
-		System.out.println("in method A2");
+		System.out.println("in methodB33 changed by git2");
 	}
 		
 	public void methodB2() {
