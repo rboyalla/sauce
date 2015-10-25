@@ -16,7 +16,13 @@ public class HelloWorld {
 		System.out.println("in method b");
 	}
 	
+		
 	public void methodB2() {
 		System.out.println("in method b2");
 	}
+	
+	public void methodA2() {
+		System.out.println("in method A2");
+	}
+	
 }
