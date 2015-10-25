@@ -20,4 +20,8 @@ public class HelloWorld {
 		System.out.println("in method A2");
 	}
 	
+	public void methodB22() {
+		System.out.println("in method B22");
+	}
+	
 }
