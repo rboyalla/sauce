@@ -16,7 +16,11 @@ public class HelloWorld {
 		System.out.println("in method b");
 	}
 	public void methodB33() {
+<<<<<<< HEAD
 		System.out.println("in methodB33 changed by git2");
+=======
+		System.out.println("in methodB33 changed");
+>>>>>>> branch 'master' of https://github.com/rboyalla/sauce.git
 	}
 		
 	public void methodB2() {
