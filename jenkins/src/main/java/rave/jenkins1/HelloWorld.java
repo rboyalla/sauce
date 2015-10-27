@@ -37,6 +37,7 @@ public class HelloWorld {
 		System.out.println("in method B22 by master");
 		System.out.println("in method B22 by master 2");
 		System.out.println("in method B22 by nb1");
+		System.out.println("in method B22 by master 3");
 	}
 	
 }
